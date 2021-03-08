@@ -9,6 +9,6 @@ public class Bear extends Toy {
 
     public void display(){
         super.display();
-        System.out.println(material);
+        System.out.println("Material: "+material);
     }
 }

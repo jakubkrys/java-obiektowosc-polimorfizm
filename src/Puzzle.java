@@ -9,6 +9,6 @@ public class Puzzle extends Toy{
 
     public void display(){
         super.display();
-        System.out.println(piecesAmount);
+        System.out.println("Amount of pieces: "+piecesAmount);
     }
 }

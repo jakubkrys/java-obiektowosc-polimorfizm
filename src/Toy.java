@@ -10,7 +10,7 @@ public class Toy {
 
 
     public void display(){
-        System.out.println(name);
-        System.out.println(price);
+        System.out.println("Name: "+name);
+        System.out.println("Price: "+price);
     }
 }
