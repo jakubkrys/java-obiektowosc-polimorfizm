@@ -30,7 +30,7 @@ public class ToyShopApp {
                     String material = scanner.nextLine();
 
                     Bear bear = new Bear(name,price,material);
-                    toyShopRepo.addBear(bear);
+                    toyShopRepo.add(bear);
                     break;
                 case '2':
                     System.out.print("Name: ");
@@ -42,7 +42,7 @@ public class ToyShopApp {
                     String type = scanner.nextLine();
 
                     Car car = new Car(name,price,type);
-                    toyShopRepo.addCar(car);
+                    toyShopRepo.add(car);
                     break;
                 case '3':
                     System.out.print("Name: ");
@@ -55,7 +55,7 @@ public class ToyShopApp {
                     scanner.nextLine();
 
                     Puzzle puzzle = new Puzzle(name,price,piecesAmount);
-                    toyShopRepo.addPuzzle(puzzle);
+                    toyShopRepo.add(puzzle);
                     break;
                 case '4':
                     System.out.print("Name: ");
@@ -71,7 +71,7 @@ public class ToyShopApp {
                     scanner.nextLine();
 
                     Book book = new Book(name,price,pagesAmount,age);
-                    toyShopRepo.addBook(book);
+                    toyShopRepo.add(book);
                     break;
                 case '5':
                     toyShopRepo.displayAll();
