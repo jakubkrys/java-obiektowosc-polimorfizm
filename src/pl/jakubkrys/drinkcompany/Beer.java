@@ -1,3 +1,5 @@
+package pl.jakubkrys.drinkcompany;
+
 public class Beer extends Drink{
 
     private double alcoholStrength;

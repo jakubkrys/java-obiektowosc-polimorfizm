@@ -1,3 +1,5 @@
+package pl.jakubkrys.toyshop;
+
 public class ToyShopRepo {
 
     private Toy[] toys = new Toy[40];

@@ -1,4 +1,6 @@
-public class Book extends Toy{
+package pl.jakubkrys.toyshop;
+
+public class Book extends Toy {
 
     private int pagesAmount;
     private int age;

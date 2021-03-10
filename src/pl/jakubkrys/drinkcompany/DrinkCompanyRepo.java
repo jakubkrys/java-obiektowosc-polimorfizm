@@ -1,14 +1,15 @@
+package pl.jakubkrys.drinkcompany;
+
 public class DrinkCompanyRepo {
 
-    Drink [] drinks = new Drink[20];
+    Drink[] drinks = new Drink[20];
     private int drinkIndex = 0;
 
     public void add (Drink drink){
-        if(drinkIndex < drinks.length){
-            drinks[drinkIndex++] = drink;
-        } else {
+        if(drinkIndex == drinks.length){
             drinkIndex = 0;
         }
+        drinks[drinkIndex++] = drink;
     }
 
     public void displayAll(){

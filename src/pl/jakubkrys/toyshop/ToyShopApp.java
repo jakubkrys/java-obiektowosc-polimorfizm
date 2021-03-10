@@ -1,3 +1,7 @@
+package pl.jakubkrys.toyshop;
+
+import pl.jakubkrys.toyshop.*;
+
 import java.util.Scanner;
 
 public class ToyShopApp {
