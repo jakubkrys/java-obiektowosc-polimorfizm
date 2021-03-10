@@ -1,3 +1,5 @@
+package pl.jakubkrys.toyshop;
+
 public class Bear extends Toy {
 
     private String material;

@@ -1,3 +1,5 @@
+package pl.jakubkrys.toyshop;
+
 public class Car extends Toy {
 
     private String type;

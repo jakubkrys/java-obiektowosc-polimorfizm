@@ -1,3 +1,5 @@
+package pl.jakubkrys.drinkcompany;
+
 public class Water extends Drink{
 
     private String type;

@@ -1,3 +1,5 @@
+package pl.jakubkrys.toyshop;
+
 public class Toy {
 
     private String name;

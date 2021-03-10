@@ -1,4 +1,6 @@
-public class Puzzle extends Toy{
+package pl.jakubkrys.toyshop;
+
+public class Puzzle extends Toy {
 
     private int piecesAmount;
 

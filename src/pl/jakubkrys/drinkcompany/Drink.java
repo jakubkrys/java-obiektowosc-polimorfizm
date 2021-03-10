@@ -1,3 +1,5 @@
+package pl.jakubkrys.drinkcompany;
+
 public class Drink {
 
     private int capacity;

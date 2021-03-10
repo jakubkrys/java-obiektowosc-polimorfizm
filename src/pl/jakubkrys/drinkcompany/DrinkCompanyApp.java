@@ -1,3 +1,5 @@
+package pl.jakubkrys.drinkcompany;
+
 import java.util.Scanner;
 
 public class DrinkCompanyApp {
